@@ -10,7 +10,7 @@ import random
 import matplotlib.pyplot as plt
 
 # 🔑 Configure Gemini
-API_KEY = "AIzaSyDi0HnHOTN3vJxrPmVJzmy9NtWZ4Mao8Rs"
+API_KEY = "your api key"
 genai.configure(api_key=API_KEY)
 model = genai.GenerativeModel("gemini-3.1-flash-lite-preview")
 
